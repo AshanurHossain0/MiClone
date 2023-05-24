@@ -7,7 +7,7 @@ function Result(props) {
         Your Score:{props.score}<br/>
         Total Score:{props.totalScore}
     </div>
-    <button id="next-button" onClick={props.tryAgain}>Try Again</button>
+    <button id="next-button" onClick={props.tryAgain}>Play Again</button>
     </>
   )
 }
