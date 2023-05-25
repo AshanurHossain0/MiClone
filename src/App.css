@@ -70,3 +70,25 @@ body{
     cursor: pointer;
     background-color: blueviolet;
 }
+
+#play-again{
+    width: 125px;
+    padding: 3px 0px;
+    margin: 5px 0px;
+    background-color:rgba(137, 43, 226, 0.883);
+    border-radius: 5px;
+    font-size: 18px;
+    border: none;
+    color: white;
+}
+#play-again:hover{
+    cursor: pointer;
+    background-color: blueviolet;
+}
+.show-score{
+    font-size: 22px;
+    color:red;
+}
+.scr{
+    color: green;
+}

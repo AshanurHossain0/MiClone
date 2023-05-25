@@ -4,10 +4,10 @@ function Result(props) {
   return (
     <>
     <div className='show-score'>
-        Your Score:{props.score}<br/>
-        Total Score:{props.totalScore}
+        Your Score: <span className="scr">{props.score}</span> <br/>
+        Total Score: <span className="scr">{props.totalScore}</span>
     </div>
-    <button id="next-button" onClick={props.tryAgain}>Play Again</button>
+    <button id="play-again" onClick={props.tryAgain}>Play Again</button>
     </>
   )
 }

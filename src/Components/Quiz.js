@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import { QuizData } from '../Data/QuizData.js'
 import Result from './Result.js'
-import "../App.css"
 const Quiz = () => {
     const [currQ, setCurrQ] = useState(1)
     const [score, setScore] = useState(0);
