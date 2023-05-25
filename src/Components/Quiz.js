@@ -39,13 +39,13 @@ const Quiz = () => {
                             <span id="question-text">{QuizData[currQ - 1].question}</span>
                         </div>
                         <div className="option-container">
-                            {QuizData[currQ - 1].options.map((option, idx) => {
+                            {QuizData[currQ - 1].options.map((opt, idx) => {
                                 return (
                                     <button
                                         className={`option-btn ${option === idx + 1 ? "checked" : null
                                             }`}
                                         key={idx} onClick={() => { setOption(idx + 1) }}>
-                                        {option}
+                                        {opt}
                                     </button>
                                 )
                             })}
