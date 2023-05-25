@@ -43,10 +43,13 @@ body{
     flex-direction: column;
     align-items: center;
 }
+.option-btn:hover{
+    background-color: rgba(15, 224, 151, 0.937);
+    color: white;
+}
 .checked{
     background-color: rgb(230, 63, 188);
     color: white;
-    border: none;
 }
 .heading-txt{
     margin: 5px 0px;
