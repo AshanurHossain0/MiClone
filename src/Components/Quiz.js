@@ -29,7 +29,7 @@ const Quiz = () => {
         setScore(0);
     }
     return (
-        <div>
+        <div className='main-container'>
             <p className="heading-txt">Play Quiz</p>
             <div className="container">
                 {(showResult) ? (<Result  score={score} totalScore={QuizData.length} tryAgain={resetAll} />) : (
